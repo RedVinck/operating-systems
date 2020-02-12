@@ -34,7 +34,7 @@ image::cosci-netinfra-DC.png[]
 
 Om een Donein Controller te installeren, moeten je eerst een Windows Server hebben.
 
-1. Download de ISO van Windows Server 2019 op https://files.ucll.be[https://files.ucll.be] (Education->CourseInfo->Management en Technologie->Management Leuven->Toegepaste Informatica->Besturingsystemen_1->ISOs).
+1. Download de ISO van Windows Server 2019 op https://files.ucll.be[https://files.ucll.be] (Education->CourseInfo->Management en Technologie->Management Leuven->Toegepaste Informatica->1TI->Besturingsystemen_1->ISOs).
 2. In VMWare selecteer je "Create a new Virtual Machine".
 3. Je gebruikt de "typical" configuratie.
 4. Bij Installer-Disk-image selecteer je de ISO die je gedownload hebt. VMWare zal normaal gezien automatisch herkennen dat dit een Windows-Installatie is.
