@@ -104,7 +104,7 @@ Toen we in de Windows 10 client `cosci.be` als domein opgaven, ging de PC dus ee
 
 Een SRV-record is een record in DNS waarin je een bepaalde service beschrijft, alsook het ip-adres, de poort, en de priority van deze service. Hieronder zie je de afdruk van een NSLookup.
 
-image::cosci_srv.png[]
+image::cosci_SRV.png[]
 
 Wanneer we een client opnemen in het domein `cosci.be` wordt er een query gedaan naar `ldap._tcp.dc._msdcs.cosci.be`, en de client krijgt als antwoord het IP en de poort waar het op draait. Test dit zeker zelf ook eens uit.
 
