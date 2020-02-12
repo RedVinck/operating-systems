@@ -53,8 +53,7 @@ TIP: `cmd`, `ipconfig`, `ping`
 
 == Windows Server Manager
 === Rollen
-Een Windows Server wordt doorgaans geconfigureerd via Windows Server Manager, een programma dat standaard geïnstalleerd is op alle installaties van Windows Server. Met deze tool kan je een heleboel extra "zaken" op je server installeren, zoals Active Directory, een DHCP server, een Fax-server, ...
-Deze zaken noemen we _Roles_, de "primaire" programma's.
+Een Windows Server wordt doorgaans geconfigureerd via Windows Server Manager, een programma dat standaard geïnstalleerd is op alle installaties van Windows Server. Met deze tool kan je een heleboel extra "componenten" op je server installeren, zoals Active Directory, een DHCP server, een Fax-server, ... Deze componenten noemen we _Roles_, de "primaire" programma's.
 
 === Features
 Daarnaast kan je ook features installeren. Features zijn programma's of add-ons die niet zozeer impact hebben op de functionaliteit van de primaire programma's, maar extra functies voorzien. Een heel bekende feature is Powershell, de bekende scripting-taal van Microsoft.
