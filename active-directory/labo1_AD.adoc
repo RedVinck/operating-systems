@@ -46,7 +46,7 @@ Terwijl je wacht op de installatie, bekijk je het volgende https://www.youtube.c
 == Installatie Windows 10 Client
 Hiernaast willen we natuurlijk ook een client Windows 10 uitvoeren. De procedure hiervoor is zeer gelijkaardig aan die van de server.
 
-Om communicatie tussen de twee machines mogelijk te maken zal je **Windows Device Discovery en FileSharing** moeten aanzetten. Door dit te doen, worden bepaalde poorten op de firewall opengezet, die belangrijk zijn voor het delen van bestanden en informatie voor Windows-machines. De gemakkelijkste manier is om de verkenner te openen en naar 'Netwerk' te gaan. Er verschijnt bovenaan een gele balk die meldt dat device discovery uitstaat. Je kan deze aanzetten door er op te klikken. Dit moet je uiteraard op beide machines doen. **Test hierna of de twee machines elkaar kunnen pingen**.
+Om communicatie tussen de twee machines mogelijk te maken zal je **Windows Device Discovery en FileSharing** moeten aanzetten. Door dit te doen, worden bepaalde poorten op de firewall opengezet, die belangrijk zijn voor het delen van bestanden en informatie voor Windows-machines. De gemakkelijkste manier is om de verkenner te openen en naar 'Network' te gaan. Er verschijnt bovenaan een gele balk die meldt dat device discovery uitstaat. Je kan deze aanzetten door er op te klikken. Dit moet je uiteraard op beide machines doen. **Test hierna of de twee machines elkaar kunnen pingen**.
 
 TIP: `cmd`, `ipconfig`, `ping`
 
