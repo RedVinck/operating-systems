@@ -119,7 +119,7 @@ We laten de Group Scope op global staan, en als Group-type kiezen we Security.
 
 Daarna maken we een nieuwe user, waar je je eigen gegevens mag invullen. Als User Logon name mag je in principe invullen wat je wilt, maar het gemakkelijkste is om het formaat voornaam.familienaam te hanteren. Ten slotte voegen we de user die we net gemaakt hebben toe aan de groep 'System Administrators'. Als je dit allemaal gedaan hebt kan je terug naar de Windows 10 client gaan, klik je op andere gebruiker om met de globale domein user in te loggen.
 
-    Bij het inloggen of aanmelden moet men kiezen of men zich als lokale gebruiker of als domeingebruiker aanmeldt. In het begin is dit verwarrend omdat een account met dezelfde naam (bvb. Administrator) zowel lokaal als globaal (= op het domein) kan gedefinieerd zijn en omdat dit andere accounts zijn met andere rechten! Door een  pc  op  te  nemen  in  een  domein,  krijgen  de  domeingebruikers  automatisch rechten  op  de  pc. Omgekeerd echter niet: de lokale gebruikers krijgen niet automatisch rechten op het domein.
+Bij het inloggen of aanmelden moet men kiezen of men zich als lokale gebruiker of als domeingebruiker aanmeldt. In het begin is dit verwarrend omdat een account met dezelfde naam (bvb. Administrator) zowel lokaal als globaal (= op het domein) kan gedefinieerd zijn en omdat dit andere accounts zijn met andere rechten! Door een  pc  op  te  nemen  in  een  domein,  krijgen  de  domeingebruikers  automatisch rechten  op  de  pc. Omgekeerd echter niet: de lokale gebruikers krijgen niet automatisch rechten op het domein.
 
 Inloggen gaat als volgt:
 
