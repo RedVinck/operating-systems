@@ -137,7 +137,7 @@ In bovenstaande afbeelding stelt iedere blauwe driehoek een Domain Controller vo
 
 Alle resources (PC's, Users, ...) die in een van de subdomeinen worden toegevoegd, zijn in alle subdomeinen beschikbaar dankzij de automatische verbinding die door de tree wordt gelegd. De voornaamste redenen dat men dit soort architectuur hanteert is als men zeer grote organisaties heeft, trafiek wilt verminderen naar de root DC.
 
-Daarnaast is het ook mogelijk om verschillende trees van verschillende domeinen aan elkaar te koppelen via een trust. Stel bijvoorbeeld dat `blue.com` beslist te gaan samenwerken met `red.com`, dan kan men een trust tussen de 2 trees leggen, waardoor de resources van de ene tree "gekend zijn" in de andere tree. Zo gaan gebruikers van `blue.com` zich zelfs in de gebouwen van red.com kunnen aanmelden op de PC's.Voor meer info over design van een Active Directory, lees je dit https://mcpmag.com/articles/2010/09/29/ad-design-know-your-domains.aspx[artikel].
+Daarnaast is het ook mogelijk om verschillende trees van verschillende domeinen aan elkaar te koppelen via een trust. Stel bijvoorbeeld dat `blue.com` beslist te gaan samenwerken met `red.com`, dan kan men een trust tussen de 2 trees leggen, waardoor de resources van de ene tree "gekend zijn" in de andere tree. Zo gaan gebruikers van `blue.com` zich zelfs in de gebouwen van red.com kunnen aanmelden op de PC's. Voor meer info over design van een Active Directory, lees je dit https://mcpmag.com/articles/2010/09/29/ad-design-know-your-domains.aspx[artikel].
 
 === Organizational units & groups
 Wat echter veel meer voorkomt zijn **organizational units & groups**.
