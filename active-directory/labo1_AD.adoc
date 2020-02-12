@@ -56,7 +56,7 @@ TIP: `cmd`, `ipconfig`, `ping`
 Een Windows Server wordt doorgaans geconfigureerd via Windows Server Manager, een programma dat standaard geïnstalleerd is op alle installaties van Windows Server. Met deze tool kan je een heleboel extra "componenten" op je server installeren, zoals Active Directory, een DHCP server, een Fax-server, ... Deze componenten noemen we _Roles_, de "primaire" programma's.
 
 === Features
-Daarnaast kan je ook features installeren. Features zijn programma's of add-ons die niet zozeer impact hebben op de functionaliteit van de primaire programma's, maar extra functies voorzien. Een heel bekende feature is Powershell, de bekende scripting-taal van Microsoft.
+Daarnaast kan je ook features installeren. Features zijn programma's of add-ons die niet zozeer impact hebben op de functionaliteit van de primaire programma's, maar extra functies voorzien. Een heel bekende feature is PowerShell, de bekende scripting-taal van Microsoft.
 
 == Installatie Active Directory
 Zoals besproken worden in een Domein alle gebruikersaccounts, PC's, printers, ... centraal bijgehouden. De databank of database waarin deze worden opgeslagen noemen we een 'Directory'. Er zijn een heleboel Directory-softwarepakketten (OpenLDAP, Samba, FreeIPA, 389 Directory Server, ...) maar verreweg de meest gebruikte is en blijft Windows Active Directory.
