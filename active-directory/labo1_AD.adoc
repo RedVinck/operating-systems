@@ -38,7 +38,7 @@ Om een Donein Controller te installeren, moeten je eerst een Windows Server hebb
 2. In VMWare selecteer je "Create a new Virtual Machine".
 3. Je gebruikt de "typical" configuratie.
 4. Bij Installer-Disk-image selecteer je de ISO die je gedownload hebt. VMWare zal normaal gezien automatisch herkennen dat dit een Windows-Installatie is.
-5. Je kan vanuit VMWare automatisch een user-account laten maken. Als gebruikersnaam gebruiken we `Administrator` en als wachtwoord `t`.
+5. Je kan vanuit VMWare automatisch een user-account laten maken. Als gebruikersnaam gebruiken we `Administrator` en als wachtwoord `p@ssw0rd`.
 6. Wanneer je volledig door de set-up bent gegaan zal Windows Server automatisch beginnen installeren. Op een gegeven moment vraagt de installer of je Windows Server Core of Desktop-Experience wilt gebruiken. Voor gebruiksgemak kiezen we hier voor Desktop-Experience.
 
 Terwijl je wacht op de installatie, bekijk je het volgende https://www.youtube.com/watch?v=GfqsFtmJQg0[filmpje]. Daarin wordt uitgelegd wat we allemaal kunnen doen met Active Directory, en met welke tools we Active Directory Domain kunnen beheren.
