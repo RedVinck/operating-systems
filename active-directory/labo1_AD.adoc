@@ -133,7 +133,7 @@ Wat we nu eigenlijk hebben gedaan is het opstellen van een Single Domain Active 
 
 image::AD_design.png[]
 
-In bovenstaande afbeelding stelt iedere blauwe driehoek een Domain Controller voor. Zo zie je dat het bedrijf blue.com een DC heeft voor hun domeinnaam. Hun bedrijf is echter zo groot dat ze ervoor gekozen hebben dit nog verder op te splitsen in subdomeinen. Voor deze subdomeinen hebben ze ook een aparte DC gemaakt, en deze gekoppeld aan de bestaande DC voor het root domein. (Herinner je een van de eerste stappen van de installatie van Active Directory, waar je moet kiezen tussen een nieuw domein aan te maken,of een DC koppelen aan een bestaand domein). Hierdoor krijg je een soort hiërarchische verhouding en spreken we van een Domain Tree.
+In bovenstaande afbeelding stelt iedere blauwe driehoek een Domain Controller voor. Zo zie je dat het bedrijf blue.com een DC heeft voor hun domeinnaam. Hun bedrijf is echter zo groot dat ze ervoor gekozen hebben dit nog verder op te splitsen in subdomeinen. Voor deze subdomeinen hebben ze ook een aparte DC gemaakt, en deze gekoppeld aan de bestaande DC voor het root domein. (Herinner je een van de eerste stappen van de installatie van Active Directory, waar je moet kiezen tussen een nieuw domein aan te maken of een DC koppelen aan een bestaand domein). Hierdoor krijg je een soort hiërarchische verhouding en spreken we van een Domain Tree.
 
 Alle resources (PC's, Users, ...) die in een van de subdomeinen worden toegevoegd, zijn in alle subdomeinen beschikbaar dankzij de automatische verbinding die door de tree wordt gelegd. De voornaamste redenen dat men dit soort architectuur hanteert is als men zeer grote organisaties heeft, trafiek wilt verminderen naar de root DC.
 
